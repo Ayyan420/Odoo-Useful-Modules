@@ -1,0 +1,4 @@
+<span class="pos-receipt-right-align">
+    <t t-esc="widget.format_currency(10).slice(0,1)" />
+    <t t-esc="widget.format_fixed(receipt.total_with_tax,0,4)" />
+</span>
